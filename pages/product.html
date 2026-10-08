@@ -42,12 +42,24 @@
             </p>
             <form method="POST" action="https://www.randyconnolly.com/tests/process.php">
               <label for="size">Size:</label><br>
-              <input type="radio" name="size" value="xs">
-              <input type="radio" name="size" value="s">
-              <input type="radio" name="size" value="m">
-              <input type="radio" name="size" value="l">
-              <input type="radio" name="size" value="xl">
-              <input type="radio" name="size" value="xxl">
+              <input type="radio" name="size" value="xs" required>
+              <input type="radio" name="size" value="s" required>
+              <input type="radio" name="size" value="m" required>
+              <input type="radio" name="size" value="l" required>
+              <input type="radio" name="size" value="xl" required>
+              <input type="radio" name="size" value="xxl" required>
+              <br>
+              <label for="size">Color:</label><br>
+              <input type="radio" name="color" value="white" required>
+              <input type="radio" name="color" value="black" required>
+              <input type="radio" name="color" value="blue" required>
+              <input type="radio" name="color" value="orange" required>
+              <br>
+              <label>Quantity:</label><br>
+              <input type="number" name="quantity" min="1" required>
+              <br>
+              <button type="submit" name="submit">Add to Cart</button>
+              <button>Add to Wishlist</button>
 
             </form>
           </aside>
