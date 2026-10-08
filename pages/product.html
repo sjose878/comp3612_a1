@@ -7,7 +7,7 @@
         <title>COMP3612 Assign 1 Product</title>
     </head>
     <body>
-        <nav>
+        <nav> <!--NEEDS TO BE A FORM-->
             <h1>COMP3612 Assign 1</h1>
             <a>Home</a>
             <a>Shop</a>
@@ -40,22 +40,16 @@
               The classic light-blue gleam adds timeless aura and visual interest to this versatile piece.
               Natural mob deterrent properties make it perfect for mining at night.
             </p>
-            <div id="size">
-              <h6>Size:</h6>
-              <a>XS</a>
-              <a>S</a>
-              <a>M</a>
-              <a>L</a>
-              <a>XL</a>
-              <a>XXL</a>
-            </div>
-            <div id=""color>
-              <h6>Color:</h6>
-              <a> </a>
-              <a> </a>
-              <a> </a>
-              <a> </a>
-            </div>
+            <form method="POST" action="https://www.randyconnolly.com/tests/process.php">
+              <label for="size">Size:</label><br>
+              <input type="radio" name="size" value="xs">
+              <input type="radio" name="size" value="s">
+              <input type="radio" name="size" value="m">
+              <input type="radio" name="size" value="l">
+              <input type="radio" name="size" value="xl">
+              <input type="radio" name="size" value="xxl">
+
+            </form>
           </aside>
         </section>
         <footer>
