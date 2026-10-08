@@ -1,3 +1,46 @@
-h1 {
-    color: red;
+
+body {
+    margin: 0%;
+}
+/*Nav*/
+nav {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 0%;
+    color: white;
+    background-color: #181b25;
+    
+}
+
+nav div {
+    margin:auto;
+}
+
+nav div a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav div a:hover, nav div a:visited {
+    background-color: #394759;
+    border-radius: 10%;
+}
+
+/* Home hero*/
+.hero {
+    margin: 0%;
+    color: white;
+    background-color: #292d3d;
+}
+
+.hero p, .hero h1 {
+    margin-left: 20%;
+
+}
+
+button {
+    margin-left: 20%;
+
+    background-color: #c9a53f;
 }
