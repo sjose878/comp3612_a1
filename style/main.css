@@ -264,13 +264,19 @@ p.job-title {
     align-items: flex-start;
     justify-content: flex-start;
     padding-left: 40%;
+    margin-bottom: 5%;
 }
 
 .journey h3 {
     padding-left: 10%;
 }
 
+p.season {
+    color: green;
+}
+
 .journey div {
+    font-family: "Roboto", Verdana, sans-serif;
     border-left: solid grey 1px;
     padding-left: 1%;
 }
