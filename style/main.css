@@ -126,3 +126,13 @@ button {
     color: white;
     background-color: #181b25;
 }
+
+/*Column section*/
+.column {
+    margin: 2% 50% 2% 2%;
+}
+
+.column p {
+    font-family: "Roboto", Verdana, sans-serif;
+    color: grey;
+}
