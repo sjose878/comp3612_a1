@@ -35,9 +35,11 @@ nav div a:hover, nav div a:visited {
 
 /* Home hero section for index and about*/
 .hero {
+    font-size: 2rem;
     color: white;
     background-image: url("../images/hero_bg.png");
     background-size: 100%;
+   
     background-repeat: no-repeat;
     background-color: #292d3d;
 }
@@ -46,15 +48,55 @@ nav div a:hover, nav div a:visited {
     margin: 0%;
     padding: 10% 30% 0% 20%;
 }
+
 .hero p {
     margin: 0%;
     padding: 3% 30% 5% 20%;
 }
 
 button {
+    font-weight: bold;
     margin: 0% 10% 3% 20%;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
     border-radius: 5%;
     border: solid black 1px;
     background-color: #c9a53f;
+}
+
+/*Featured Products section*/
+.featured {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;    gap: 5px;
+}
+
+.featured article {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: solid;
+    border-width: 5px 1px 1px 1px;
+    border-color: #396257 grey grey grey;
+    border-radius: 1%;
+}
+
+.featured article a {
+    font-family: "Roboto", Verdana, sans-serif;
+    color: black;
+    font-weight: bold;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5%;
+    text-decoration: none;
+    text-align: center;
+    margin: 0% 10% 5% 10%;
+    padding: 3% 0% 3% 0%;
+}
+
+.featured article:hover{
+    border-color: #cca740 black black black;
+}
+
+.featured article a:hover {
+    color: white;
+    background-color: #181b25;
 }
