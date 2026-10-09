@@ -79,6 +79,11 @@ button {
     border-radius: 1%;
 }
 
+.featured article figure {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+}
 .featured article a {
     font-family: "Roboto", Verdana, sans-serif;
     color: black;
