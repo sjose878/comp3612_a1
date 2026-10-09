@@ -413,6 +413,22 @@ p#rating {
 #form-buttons button {
     margin: 0%;
 }
+
+#product-tabs{
+    border-top: solid grey 1px;
+    border-bottom: solid grey 1px;
+    padding: 1% 0% 1% 0%;
+    margin: 0% 5% 0% 5%;
+}
+
+#product-tabs span {
+    margin: 5%;
+}
+
+span#description-tab {
+    border-bottom: solid goldenrod 2px;
+    padding-bottom: 1%;
+}
 /*Footer section*/
 .footer-links {
     display: grid;
