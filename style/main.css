@@ -335,6 +335,9 @@ main div img {
     min-width: 125px;
 }
 
+aside {
+    font-family: "Roboto", Verdana, sans-serif;
+}
 p#rating {
     color: darkgoldenrod;
 }
@@ -416,6 +419,7 @@ p#rating {
 
 /*Product tabs section*/
 #product-tabs{
+    font-family: "Roboto", Verdana, sans-serif;
     border-top: solid grey 1px;
     border-bottom: solid grey 1px;
     padding: 1% 0% 1% 0%;
@@ -431,8 +435,9 @@ span#description-tab {
     padding-bottom: 1%;
 }
 
-/*Product details section*/
+/*Product details section in product*/
 .product-details {
+    font-family: "Roboto", Verdana, sans-serif;
     margin: 0% 5% 0% 5%;
 }
 
@@ -448,6 +453,21 @@ table tr {
 table tr th {
    margin-left: auto;
  
+}
+
+/*Review section in product*/
+.reviews {
+    font-family: "Roboto", Verdana, sans-serif;
+    margin: 0% 5% 0% 5%;
+}
+
+.review span a {
+    color: goldenrod;
+}
+
+.date {
+    margin-left: 65%;
+    margin-right: auto;
 }
 /*Footer section*/
 .footer-links {
