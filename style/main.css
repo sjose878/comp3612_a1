@@ -75,20 +75,20 @@ button {
 }
 
 .featured article {
+    min-height: 375px;
     display: grid;
     grid-template-columns: 1fr;
     border: solid;
     border-width: 5px 1px 1px 1px;
     border-color: #396257 grey grey grey;
     border-radius: 1%;
-    margin: 0% 10% 5% 10%;
-    padding: 10%;
-
-.featured article img {
-    max-width: fit-content;
+    margin: auto;
+    padding: auto;
 }
 
-.figcaption-container {
+
+
+.figcaption {
     display: grid;
     grid-template-columns: 1fr;
     background-color: white;
@@ -96,7 +96,7 @@ button {
     padding: 3% 10% 3% 10%;
 }
 
-.featured article a {
+.figcaption a {
     font-family: "Roboto", Verdana, sans-serif;
     color: black;
     font-weight: bold;
