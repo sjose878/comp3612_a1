@@ -136,3 +136,36 @@ button {
     font-family: "Roboto", Verdana, sans-serif;
     color: grey;
 }
+
+/*Footer section*/
+.footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #181b25;
+}
+
+.footer-links section {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+
+footer div h5 {
+    color: white;
+}
+
+.footer-links section a{
+    color: #aaadbd;
+    text-decoration: none;
+    margin: 1%;
+}
+
+.copyright {
+    color: #aaadbd;
+    border-top: solid #aaadbd 1px;
+    border-left: solid #181b25 2rem;
+    border-right: solid #181b25 2rem;
+    background-color: #181b25;
+    padding: 2%;
+}
