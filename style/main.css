@@ -339,6 +339,11 @@ p#rating {
     color: darkgoldenrod;
 }
 
+.form-size {
+    appearance: none;
+    border: solid black 1px;
+}
+
 /*Footer section*/
 .footer-links {
     display: grid;
