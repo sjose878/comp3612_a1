@@ -37,9 +37,9 @@ nav div a:hover, nav div a:visited {
 .hero {
     font-size: 2rem;
     color: white;
+    margin: 0%;
     background-image: url("../images/hero_bg.png");
     background-size: 100%;
-   
     background-repeat: no-repeat;
     background-color: #292d3d;
 }
@@ -64,10 +64,14 @@ button {
 }
 
 /*Featured Products section*/
+#featured-bg, #featured-bg h2 {
+    padding: 1% 0% 1% 1%;
+    background-color: #f3f4f7;
+}
 .featured {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: center;    gap: 5px;
+    place-items: center; 
 }
 
 .featured article {
@@ -77,13 +81,21 @@ button {
     border-width: 5px 1px 1px 1px;
     border-color: #396257 grey grey grey;
     border-radius: 1%;
+    margin: 0% 10% 5% 10%;
+    padding: 10%;
+
+.featured article img {
+    max-width: fit-content;
 }
 
-.featured article figure {
+.figcaption-container {
     display: grid;
-    place-items: center;
-    justify-content: center;
+    grid-template-columns: 1fr;
+    background-color: white;
+    margin: 0%;
+    padding: 3% 10% 3% 10%;
 }
+
 .featured article a {
     font-family: "Roboto", Verdana, sans-serif;
     color: black;
@@ -93,8 +105,7 @@ button {
     border-radius: 5%;
     text-decoration: none;
     text-align: center;
-    margin: 0% 10% 5% 10%;
-    padding: 3% 0% 3% 0%;
+    
 }
 
 .featured article:hover{
