@@ -348,7 +348,7 @@ p#rating {
 
 .form-size div {
     border: solid grey 1px;
-    padding: 2%;
+    padding: 1%;
     margin: 1%;
 }
 
@@ -403,7 +403,16 @@ p#rating {
 .form-color:checked::after {
   background-color: #333;
 }
-/*End of radio button
+/*End of radio button reciple*/
+#form-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+#form-buttons button {
+    margin: 0%;
+}
 /*Footer section*/
 .footer-links {
     display: grid;
