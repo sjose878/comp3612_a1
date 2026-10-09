@@ -231,6 +231,7 @@ button {
     place-items: central;
     gap: 2%;
     background-color: #f3f4f7;
+    margin-top: 5%;
 }
 
 .team article {
@@ -281,7 +282,29 @@ p.season {
     padding-left: 1%;
 }
 
+/*Get in touch section in about*/
+.get-in-touch {
+    background-color: #f3f4f7;
+}
 
+.get-in-touch h3 {
+     padding: 2% 40% 2% 10%;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-container article {
+    background-color: white;
+    padding: 1% 5% 1% 5%;
+    border: solid black 1px;
+    margin-bottom: 5%;
+}
+
+.contact-container article p {
+    color: grey;
+}
 
 /*Footer section*/
 .footer-links {
