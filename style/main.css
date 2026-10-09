@@ -215,6 +215,28 @@ button {
   
 }
 
+/*Team section in about*/
+#team-header {
+    grid-area: header;
+}
+
+.team {
+    display: grid;
+    grid-template-areas: 'header header header';
+    place-items: central;
+    gap: 2%;
+    background-color: #f3f4f7;
+}
+
+.team article {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 4%;
+}
+
+.team img {
+    max-height: 200px;
+}
 /*Footer section*/
 .footer-links {
     display: grid;
@@ -247,3 +269,5 @@ footer div h5 {
     background-color: #181b25;
     padding: 2%;
 }
+
+
