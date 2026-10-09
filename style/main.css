@@ -33,6 +33,17 @@ nav div a {
     border-radius: 10%;
 }
 
+
+#product-tree { /*2nd nav in product*/
+    display: inline-block;
+    width: 100%;
+    color: grey;
+    background-color: white;
+    margin: 0%;
+    padding: 1% 0% 1% 5%;
+    border-bottom: solid grey 1px;
+}
+
 /* Home hero section for index and about*/
 .hero {
     font-size: 2rem;
@@ -304,6 +315,28 @@ p.season {
 
 .contact-container article p {
     color: grey;
+}
+
+/*Product hero section*/
+.product-hero {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin: 5%;
+}
+
+main div {
+    display: flex;
+    justify-content: space-between;
+    gap: 1%
+}
+
+main div img {
+    min-width: 125px;
+}
+
+p#rating {
+    color: darkgoldenrod;
 }
 
 /*Footer section*/
