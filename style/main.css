@@ -50,6 +50,7 @@ nav div a {
 }
 
 .hero p {
+    font-family: "Roboto", Verdana, sans-serif;
     margin: 0%;
     padding: 3% 30% 5% 20%;
 }
@@ -63,7 +64,7 @@ button {
     background-color: #c9a53f;
 }
 
-/*Featured Products section*/
+/*Featured Products section for index*/
 #featured-bg, #featured-bg h2 {
     padding: 1% 0% 1% 1%;
     background-color: #f3f4f7;
@@ -127,7 +128,7 @@ button {
     background-color: #181b25;
 }
 
-/*Column section*/
+/*Column section for index*/
 .column {
     margin: 2% 50% 2% 2%;
 }
@@ -135,6 +136,21 @@ button {
 .column p {
     font-family: "Roboto", Verdana, sans-serif;
     color: grey;
+}
+
+/*Story section*/
+
+.story {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    margin-top: 3%;
+}
+
+.story p {
+    font-family: "Roboto", Verdana, sans-serif;
+    color: grey;
+    margin-right: 20%;
 }
 
 /*Footer section*/
