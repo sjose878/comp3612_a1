@@ -28,7 +28,7 @@ nav div a {
     padding: 5px;
 }
 
-nav div a:hover, nav div a:visited {
+.current-page {
     background-color: #394759;
     border-radius: 10%;
 }
