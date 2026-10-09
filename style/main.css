@@ -451,8 +451,8 @@ table tr {
 }
 
 table tr th {
-   margin-left: auto;
- 
+
+ text-align: left;
 }
 
 /*Review section in product*/
@@ -463,6 +463,7 @@ table tr th {
 
 .review span a {
     color: goldenrod;
+    margin-left: 1%;
 }
 
 .date {
