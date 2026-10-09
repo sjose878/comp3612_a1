@@ -6,7 +6,7 @@ body {
 /*Nav*/
 nav h1 span {
     margin: 2%;
-    color: orangered;
+    color: yellow;
 }
 nav {
     display: grid;
@@ -138,19 +138,81 @@ button {
     color: grey;
 }
 
-/*Story section*/
-
+/*Story section for about*/ 
 .story {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-    margin-top: 3%;
+    padding: 3% 0% 3% 0%;
+    background-color: #f3f4f7;
 }
 
 .story p {
     font-family: "Roboto", Verdana, sans-serif;
     color: grey;
     margin-right: 20%;
+}
+
+/*Values section in about*/
+#values-header {
+    grid-area: header;
+}
+/*Grid area from: https://www.w3schools.com/cssref/tryit.php?filename=trycss_grid-area_named1*/
+.values {
+    display: grid;
+    grid-template-areas: 'header header header';
+    place-items: center;
+    gap: 2%;
+    padding: 0% 10% 0% 10%;
+}
+
+.values article {
+    background-color: #f3f4f7;
+    border-radius: 2%;
+    margin: 2% 5% 2% 5%;
+}
+
+.values article h5 {
+    margin: 4%;
+    padding: 2%
+}
+
+.values article p {
+    color: grey;
+    margin: 4%;
+    padding: 2%
+}
+
+#quality {
+    font-family: "Roboto", Verdana, sans-serif;
+    display: inline-block;
+    color: yellow;
+    background-color: #181b25;
+    border-radius: 10%;
+    margin: 4%;
+    padding: 2% 4% 2% 4%;
+  
+}
+#swag {
+    font-family: "Roboto", Verdana, sans-serif;
+    display: inline-block;
+    color: green;
+    background-color: #181b25;
+    border-radius: 10%;
+    margin: 4%;
+    padding: 2% 4% 2% 4%;
+  
+}
+#innovation {
+    font-family: "Roboto", Verdana, sans-serif;
+    display: inline-block;
+    font-family: "Roboto", Verdana, sans-serif;
+    color: white;
+    background-color: #181b25;
+    border-radius: 10%;
+    margin: 4%;
+    padding: 2% 5% 2% 5%;
+  
 }
 
 /*Footer section*/
