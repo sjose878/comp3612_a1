@@ -2,11 +2,17 @@
 body {
     margin: 0%;
 }
+
 /*Nav*/
+nav h1 span {
+    margin: 2%;
+    color: orangered;
+}
 nav {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
     margin: 0%;
+    font-family: "Roboto", Verdana, sans-serif;
     color: white;
     background-color: #181b25;
     
@@ -27,20 +33,28 @@ nav div a:hover, nav div a:visited {
     border-radius: 10%;
 }
 
-/* Home hero*/
+/* Home hero section for index and about*/
 .hero {
-    margin: 0%;
     color: white;
+    background-image: url("../images/hero_bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-color: #292d3d;
 }
 
-.hero p, .hero h1 {
-    margin-left: 20%;
-
+.hero h1 {
+    margin: 0%;
+    padding: 10% 30% 0% 20%;
+}
+.hero p {
+    margin: 0%;
+    padding: 3% 30% 5% 20%;
 }
 
 button {
-    margin-left: 20%;
-
+    margin: 0% 10% 3% 20%;
+    padding: 10px;
+    border-radius: 5%;
+    border: solid black 1px;
     background-color: #c9a53f;
 }
