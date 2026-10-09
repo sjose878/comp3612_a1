@@ -442,10 +442,12 @@ span#description-tab {
 }
 
 /*Key Features Table*/
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
 table tr {
-    display: flex;
-    align-items: center;
-    gap: 30%;
+   
     border-bottom: solid grey 1px;
 
 }
